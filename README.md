@@ -46,10 +46,10 @@ Follow these simple steps to clone the repository to your local machine:
    ```bash
    git clone https://github.com/aemrcd/CSS-Functions
 
+## **CSS Features**
 
 ## **1. Use of Container Queries**  
 <a name="container-queries"></a>  
-
 
 
 ---
