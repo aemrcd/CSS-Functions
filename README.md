@@ -1,11 +1,11 @@
 # Basic Use of CSS Features 
 
 ## **📚 Table of Contents**
-## [✨ Introduction](#introduction)
-## [🎯 What You'll Achieve](#-what-youll-achieve)
-## [🛠️ Requirements](#%EF%B8%8F-requirements-1)
+  - [✨ Introduction](#introduction)
+  - [🎯 What You'll Achieve](#-what-youll-achieve)
+  - [🛠️ Requirements](#%EF%B8%8F-requirements-1)
 
-## [CSS Features](#css-features)
+    ## [CSS Features](#css-features)
 
   - [Basic Use of Container Queries](#1basic-use-of-container-queries)
   - [Basic Use of Grid](#2basic-use-of-grid)  
