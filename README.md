@@ -50,7 +50,7 @@ Follow these simple steps to clone the repository to your local machine:
 
 ## **1. Basic Use of Container Queries**  
 
-- ### This will show what is the difference between the three Container components in CSS 
+- #### This will show what is the difference between the three Container components in CSS 
 - #### To try this process, open `Container_quiries.html`  in the *template folder* or create your own HTML file.*
 
  <img src="./static/img/Container.gif">
