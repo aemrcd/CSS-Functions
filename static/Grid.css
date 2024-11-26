@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /*creates a column. to add more column you need to add "1fr" */    
+
+  }
+  .grid-item {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
