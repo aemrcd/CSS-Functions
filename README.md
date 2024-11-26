@@ -3,7 +3,7 @@
 ## **📚 Table of Contents**
   - [✨ Introduction](#introduction)
   - [🎯 What You'll Achieve](#-what-youll-achieve)
-  - [🛠️ Requirements](#%EF%B8%8F-requirements-1)
+  - [🛠️ Requirements](#%EF%B8%8F-requirements)
 
     ## [CSS Features](#css-features)
 
