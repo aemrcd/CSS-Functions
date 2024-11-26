@@ -49,10 +49,15 @@ Follow these simple steps to clone the repository to your local machine:
 ## **CSS Features**
 
 ## **1. Use of Container Queries**  
-<a name="container-queries"></a>  
+- ### This will show what is the difference between the three Container components in CSS 
+- #### *To try this process, open `Container_quiries.html`  in the template folder or create your own HTML file.*
 
+ <img src="./static/img/Container.gif">
 
----
+- **Normal Container:** The image remains the same.
+- **Inline-Size Container:** The image resizes based on the  container's width.
+- **Size Container:** The image resizes based on both width and height.
+
 
 ## **2. Use of Subgrid**  
 <a name="subgrid"></a>  
