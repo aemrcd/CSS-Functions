@@ -2,11 +2,10 @@
 
 ## **📚 Table of Contents**
 
-1. [Use of Container Queries](#container-queries)  
-2. [Use of Subgrid](#subgrid)  
-3. [Use of align-content](#align-content)  
-4. [References](#references)  
-
+1. [Basic Use of Container Queries](#basic-use-of-container-queries)  
+2. [Basic Use of Grid](#basic-use-of-grid)  
+3. [Use of align-content](#use-of-align-content)  
+4. [References](#references) 
 ---
 
 ## **Introduction**  
