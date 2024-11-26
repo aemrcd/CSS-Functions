@@ -1,25 +1,30 @@
 # Basic Use of CSS Features 
 
 ## **📚 Table of Contents**
+## [✨ Introduction](#✨introduction)
+## [🎯 What You'll Achieve](#-what-youll-achieve)
+## [🛠️ Requirements](#%EF%B8%8F-requirements)
 
-1. [Basic Use of Container Queries](#1basic-use-of-container-queries)  
-2. [Basic Use of Grid](#2basic-use-of-grid)  
-3. [Use of align-content](#3use-of-align-content)  
-4. [References](#4references) 
+## [CSS Features](#css-features)
+
+  - [Basic Use of Container Queries](#1basic-use-of-container-queries)
+  - [Basic Use of Grid](#2basic-use-of-grid)  
+  - [Use of align-content](#3use-of-align-content)  
+  - [References](#4references) 
 ---
 
-## **Introduction**  
+## **✨Introduction**  
 
 This tutorial aims to enhance your CSS knowledge, improve your project's code structure, and help you stay up-to-date with the CSS.
 
-### **🎯 What You'll Achieve:**  
+### **🎯 What You'll Achieve**  
 
 - Master modern CSS techniques to build responsive layouts.  
 - Simplify nested grid structures with Subgrid.  
 - Go beyond basic `display: flex` for layout management.  
 - Write cleaner, more efficient, and maintainable CSS code.
 
-###  🛠️ Requirements:
+###  🛠️ Requirements
 
 ## **1. Download and install Visual Studio Code <img src=https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg width="25px">**
 - Click on the link [https://code.visualstudio.com/download]
