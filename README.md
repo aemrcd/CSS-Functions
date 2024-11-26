@@ -11,7 +11,7 @@
 
 ## **Introduction**  
 
-This tutorial aims to enhance your CSS knowledge, improve your project's code structure, and help you stay up-to-date with the latest advancements in CSS.
+This tutorial aims to enhance your CSS knowledge, improve your project's code structure, and help you stay up-to-date with the CSS.
 
 ### **🎯 What You'll Achieve:**  
 
@@ -48,9 +48,10 @@ Follow these simple steps to clone the repository to your local machine:
 
 ## **CSS Features**
 
-## **1. Use of Container Queries**  
+## **1. Basic Use of Container Queries**  
+
 - ### This will show what is the difference between the three Container components in CSS 
-- #### *To try this process, open `Container_quiries.html`  in the template folder or create your own HTML file.*
+- #### To try this process, open `Container_quiries.html`  in the *template folder* or create your own HTML file.*
 
  <img src="./static/img/Container.gif">
 
@@ -59,23 +60,33 @@ Follow these simple steps to clone the repository to your local machine:
 - **Size Container:** The image resizes based on both width and height.
 
 
-## **2. Use of Subgrid**  
-<a name="subgrid"></a>  
+## **2. Basic Use of grid**  
+
+<img src="./static/img/Gridexample.png">
+
+- `grid-template-columns:` Arranges 3 cards side-by-side in one row.
+- `grid-template-rows:` Keeps the content organized inside each card:
+   - image at the top
+   - Text in the middle.
+   - Buttomat the bottom.
+- For better explanation open `Grid&Subgrid.html`  in the *template folder* or create your own HTML file.* 
 
 
-
----
-
-## **3. Use of align-content**  
-<a name="align-content"></a>  
+- *if you are having trouble understanding the function there is a comment to fully understand the code it self*
 
 
----
+## **3. Use of `align-content`**  
+
+<img src="./static/img/align-content_Funtions.gif">
+
+-  This website demonstrates how `align-content` works, whether it's applied to a column or a row.
+
+- For better explanation open `align-content`  in the *template & static folder* or create your own HTML file.* 
+
 
 ## **4. References**  
-<a name="references"></a>  
 
-- OpenAI. (2024). *Explanation of modern CSS features: Container queries, subgrid, `:has()`, and `:is()`*. ChatGPT. [Link](https://chat.openai.com/)
+- OpenAI. (2024). Updated code with flex wrap and corrected behavior: Demonstrating how align-content works in CSS Flexbox layouts. ChatGPT. https://chat.openai.com/
 - MDN Web Docs. (2024, August 14). align-content - CSS: Cascading Style Sheets. Mozilla. https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
 
 --- 

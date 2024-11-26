@@ -1,0 +1,54 @@
+
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        /* The container that holds the items */
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 2px solid #000;
+            margin-top: 20px;
+            width: 80%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 10px; /* Add a gap between the items */
+        }
+
+        /* Individual flex items */
+        .item {
+            width: 80px;
+            height: 80px;
+            background-color: lightcoral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: white;
+            margin: 5px;
+        }
+
+        /* The select boxes to choose the alignment */
+        select {
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .control-container {
+            margin-bottom: 20px;
+        }
+   

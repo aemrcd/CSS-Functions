@@ -3,36 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Subgrid Tutorial</title>
-    <link rel="stylesheet" href="/CSS-Functions/static/Grid.css">
+    <title>Subgrid Card Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f4f8;
+            margin: 0;
+        }
+        .title {
+            position: absolute;
+            top: 20px;
+            font-weight: 800;
+            font-size: 40px;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* TThis line creates 3 equal columns in the container. Each column will hold one card, and they will be of equal width.  */
+            gap: 20px;
+            max-width: 900px;
+            width: 100%;
+            margin-top: 80px; 
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-rows: 150px auto 60px;  /*each card is divided into three parts: a fixed 150px space for the image, an adjustable space for the title and description, and a fixed 60px space for the button.*/
+            text-align: center;  
+            padding: 10px;
+        }
+        .card img {
+            width: 100px;                
+            height: 100px;               
+            border-radius: 50%;         
+            object-fit: cover;          
+            margin: 20px auto 0;        
+        }
+        .card h3 {
+            margin: 10px 0 5px 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .card button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px auto;           
+            cursor: pointer;
+            width: 80%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Diff</h1>
 
-    <!-- Main Layout -->
-    <div class="main-layout">
-        <!-- Left: Subgrid -->
-        <div class="subgrid-container">
-            <div class="subgrid-item sub1">Subgrid Item 1</div>
-            <div class="subgrid-item sub2">Subgrid Item 2</div>
-            <div class="subgrid-item sub3">Subgrid Item 3</div>
-            <div class="subgrid-item sub4">Subgrid Item 4</div>
+    <div class="title">GRID CONTAINER EXAMPLE</div>
+
+    <div class="grid-container">
+        <div class="card">
+            <img src="/CSS-Functions/static/img/Example_image.jpeg" alt="Placeholder Image">
+            <h3>Card Title 1</h3>
+            <p>This is a description inside the subgrid. Subgrids help align nested elements.</p>
+            <button>Learn More</button>
         </div>
 
-        <!-- Right: Main Grid -->
-        <div class="main-grid">
-            <div class="grid-item item1">Item 1</div>
-            <div class="grid-item item2">Item 2</div>
-            <div class="grid-item item3">Item 3</div>
-            <div class="grid-item item4">Item 4</div>
-            <div class="grid-item item5">Item 5</div>
+        <div class="card">
+            <img src="/CSS-Functions/static/img/Example_image.jpeg" alt="Placeholder Image">
+            <h3>Card Title 2</h3>
+            <p>Subgrids allow nested elements to follow the main grid's layout.</p>
+            <button>Learn More</button>
         </div>
-    </div>
 
-    <!-- Legend to help explain the layout -->
-    <div class="legend">
-        <p><strong>Main Grid:</strong> The parent grid with 4 columns and 2 rows.</p>
-        <p><strong>Subgrid:</strong> Inherits the same layout (columns and rows) from the Main Grid.</p>
+        <div class="card">
+            <img src="/CSS-Functions/static/img/Example_image.jpeg" alt="Placeholder Image">
+            <h3>Card Title 3</h3>
+            <p>Here, the card layout is consistent using subgrid for structured content.</p>
+            <button>Learn More</button>
+        </div>
     </div>
 </body>
 </html>

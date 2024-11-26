@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-Functions/static/align-content.css">
+    <title>Align Content Visualizer</title>
+    
+</head>
+<body>
+
+    <h1>CSS Alignment Tester</h1>
+
+    <div class="control-container">
+        <label for="flex-direction">Choose Flex Direction:</label>
+        <select id="flex-direction">
+            <option value="row">Row (Horizontal)</option>
+            <option value="column">Column (Vertical)</option>
+        </select>
+    </div>
+
+    <div class="control-container">
+        <label for="align-content">Choose Align Content:</label>
+        <select id="align-content">
+            <option value="normal">normal</option>
+            <option value="start">start</option>
+            <option value="center">center</option>
+            <option value="end">end</option>
+            <option value="flex-start">flex-start</option>
+            <option value="flex-end">flex-end</option>
+            <option value="baseline">baseline</option>
+            <option value="first-baseline">first baseline</option>
+            <option value="last-baseline">last baseline</option>
+            <option value="space-between">space-between</option>
+            <option value="space-around">space-around</option>
+            <option value="space-evenly">space-evenly</option>
+            <option value="stretch">stretch</option>
+            <option value="safe-center">safe center</option>
+            <option value="unsafe-center">unsafe center</option>
+            <option value="inherit">inherit</option>
+            <option value="initial">initial</option>
+            <option value="revert">revert</option>
+            <option value="revert-layer">revert-layer</option>
+            <option value="unset">unset</option>
+        </select>
+    </div>
+
+    <div id="container">
+        <!-- Multiple items to allow wrapping into rows or columns -->
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+
+   <script src="/CSS-Functions/static/aligncontent.js"></script>
+
+</body>
+</html>
