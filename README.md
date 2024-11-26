@@ -2,10 +2,10 @@
 
 ## **📚 Table of Contents**
 
-1. [Basic Use of Container Queries](#basic-use-of-container-queries)  
-2. [Basic Use of Grid](#basic-use-of-grid)  
-3. [Use of align-content](#use-of-align-content)  
-4. [References](#references) 
+1. [Basic Use of Container Queries](#Basic-Use-of-Container-Queries)  
+2. [Basic Use of Grid](#Basic-Use-of-Grid)  
+3. [Use of align-content](#Use-of-align-content)  
+4. [References](#References) 
 ---
 
 ## **Introduction**  
@@ -47,7 +47,7 @@ Follow these simple steps to clone the repository to your local machine:
 
 ## **CSS Features**
 
-## **1. Basic Use of Container Queries**  
+## **1.Basic Use of Container Queries**  
 
 - #### This will show what is the difference between the three Container components in CSS 
 - #### To try this process, open `Container_quiries.html`  in the *template folder* or create your own HTML file.*
@@ -59,7 +59,7 @@ Follow these simple steps to clone the repository to your local machine:
 - **Size Container:** The image resizes based on both width and height.
 
 
-## **2. Basic Use of grid**  
+## **2.Basic Use of grid**  
 
 <img src="./static/img/Gridexample.png">
 
@@ -74,7 +74,7 @@ Follow these simple steps to clone the repository to your local machine:
 - *if you are having trouble understanding the function there is a comment to fully understand the code it self*
 
 
-## **3. Use of `align-content`**  
+## **3.Use of `align-content`**  
 
 <img src="./static/img/align-content_Funtions.gif">
 
@@ -83,7 +83,7 @@ Follow these simple steps to clone the repository to your local machine:
 - For better explanation open `align-content`  in the *template & static folder* or create your own HTML file.* 
 
 
-## **4. References**  
+## **4.References**  
 
 - OpenAI. (2024). Updated code with flex wrap and corrected behavior: Demonstrating how align-content works in CSS Flexbox layouts. ChatGPT. https://chat.openai.com/
 - MDN Web Docs. (2024, August 14). align-content - CSS: Cascading Style Sheets. Mozilla. https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
