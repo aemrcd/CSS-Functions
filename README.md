@@ -1,7 +1,7 @@
 # Basic Use of CSS Features 
 
 ## **📚 Table of Contents**
-## [✨ Introduction](#✨introduction)
+## [✨ Introduction](#introduction)
 ## [🎯 What You'll Achieve](#-what-youll-achieve)
 ## [🛠️ Requirements](#%EF%B8%8F-requirements)
 
