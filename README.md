@@ -35,7 +35,7 @@ This tutorial aims to enhance your CSS knowledge, improve your project's code st
 Follow these simple steps to clone the repository to your local machine:
 
 1. **Create a folder** where you want to store the cloned files:
-   - You can create a folder anywhere on your computer (e.g., in your "Documents" or on your desktop).
+   - You can create a folder anywhere on your computer (example, in your "Documents" or on your desktop).
 
 2. **Open the Command Prompt**:
    - Press `Windows Key + R` to open the "Run" menu.
