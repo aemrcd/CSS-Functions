@@ -1,13 +1,115 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;  /*creates a column. to add more column you need to add "1fr" */    
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  }
-  .grid-item {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    font-family: 'Georgia', serif;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-  }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Main layout: side-by-side */
+.main-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Left side: Subgrid container */
+.subgrid-container {
+  display: grid;
+  grid-template-columns: subgrid;  /* Inherit columns from parent grid */
+  grid-template-rows: subgrid;     /* Inherit rows from parent grid */
+  gap: 10px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border: 2px dashed #333;
+  width: 45%;  /* Take up 45% of the container's width */
+}
+
+/* Styling for subgrid items */
+.subgrid-item {
+  background-color: #4caf50;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #333;
+  color: white;
+}
+
+/* Right side: Main grid container */
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  grid-template-rows: auto auto;         /* 2 rows that adjust automatically */
+  gap: 10px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 3px solid #333;
+  width: 50%; /* Take up 50% of the container's width */
+}
+
+/* Styling for grid items in the main grid */
+.grid-item {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  color: #333;
+}
+
+/* Different background colors for grid items */
+.item1 { background-color: #FFB6C1; }
+.item2 { background-color: #FF6347; }
+.item3 { background-color: #FFD700; }
+.item4 { background-color: #ADFF2F; }
+.item5 { background-color: #98FB98; }
+
+/* Add visual aids: grid lines and labels */
+.main-grid {
+  position: relative;
+}
+
+.main-grid::before {
+  content: "Main Grid";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subgrid-container {
+  position: relative;
+}
+
+.subgrid-container::before {
+  content: "Subgrid (inherits layout from Main Grid)";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Additional styling for the legend to explain the grid structure */
+.legend {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
